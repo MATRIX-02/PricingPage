@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="circle"></div>
+        <ul>
+            <li class="nav-items">Home</li>
+            <li class="nav-items">Contact Us</li>
+            <li class="nav-items">About Us</li>
+        </ul>
+    </nav>
+    <div class="container group">
+        <div class="grid-1-5">
+            <h2>Basic Plan</h2>
+            <h3><span class="uppercase">Free</span></h3>
+            <p>10,000 monthly visits</p>
+            <ul>
+                <li>Limited Email Support</li>
+                <li>Unlimited Data Transfer</li>
+                <li>10GB Local Storage</li>
+                <li>No Customization Options</li>
+                <li>No Dedicated Support</li>
+            </ul>
+            <a href="#" class="button">Sign Up</a>
+        </div>
+        <div class="grid-1-5">
+            <h2>Startup Plan</h2>
+            <h3><sup>$</sup>79<span class="small">/mo</span></h3>
+            <p>25,000 monthly visits</p>
+            <ul>
+                <li>Email Support</li>
+                <li>Unlimited Data Transfer</li>
+                <li>20GB Local Storage</li>
+                <li>Customization Options</li>
+                <li>No Phone Support</li>
+            </ul>
+            <a href="#" class="button">Sign Up</a>
+        </div>
+        <div class="grid-1-5">
+            <h2>Growth Plan</h2>
+            <h3><sup>$</sup>179<span class="small">/mo</span></h3>
+            <p>75,000 monthly visits</p>
+            <ul>
+                <li>Email Support</li>
+                <li>Unlimited Data Transfer</li>
+                <li>30GB Local Storage</li>
+                <li>Customization Options</li>
+                <li>No Phone Support</li>
+            </ul>
+            <a href="#" class="button">Sign Up</a>
+        </div>
+        <div class="grid-1-5">
+            <h2>Premium Plan</h2>
+            <h3><sup>$</sup>499<span class="small">/mo</span></h3>
+            <p>225,000 monthly visits</p>
+            <ul>
+                <li>Email Support</li>
+                <li>Phone Support</li>
+                <li>Unlimited Data Transfer</li>
+                <li>Customization Options</li>
+                <li>Dedicated Account Manager</li>
+            </ul>
+            <a href="#" class="button">Sign Up</a>
+        </div>
+        <div class="grid-1-5">
+            <h2>Enterprise Plan</h2>
+            <h3><span class="uppercase">Let's Talk</span></h3>
+            <p>1M+ monthly visits</p>
+            <ul>
+                <li>Email Support</li>
+                <li>Phone Support</li>
+                <li>Unlimited Data Transfer</li>
+                <li>Customization Options</li>
+                <li>Premium Support</li>
+                <li>Dedicated Environment</li>
+            </ul>
+            <a href="#" class="button">Contact Sales</a>
+        </div>
+    </div>
+    <div class="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>24/7 Customer Support</li>
+            <li>Customizable Plans</li>
+            <li>Secure Data Encryption</li>
+            <li>99.9% Uptime Guarantee</li>
+            <li>Integration with Popular Apps</li>
+            <li>Advanced Analytics</li>
+        </ul>
+    </div>
+    <div class="faq">
+        <h2>FAQ</h2>
+        <div class="question">
+            <h3 class="question-toggle">Can I cancel my subscription at any time?</h3>
+            <p class="answer">Yes, you can cancel your subscription at any time. There are no long-term contracts.</p>
+        </div>
+        <div class="question">
+            <h3 class="question-toggle">Do you offer discounts for annual subscriptions?</h3>
+            <p class="answer">Yes, we offer discounts for annual subscriptions. Please contact sales for more information.</p>
+        </div>
+        <div class="question">
+            <h3 class="question-toggle">What payment methods do you accept?</h3>
+            <p class="answer">We accept all major credit cards, PayPal, and bank transfers.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pricing Page</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.question');
+
+            questions.forEach(question => {
+                const toggle = question.querySelector('.question-toggle');
+                const answer = question.querySelector('.answer');
+
+                toggle.addEventListener('click', () => {
+                    answer.classList.toggle('show');
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
